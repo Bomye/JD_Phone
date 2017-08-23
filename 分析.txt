@@ -1,0 +1,4 @@
+https://p.3.cn/prices/mgets?callback=jQuery2949587&type=1&area=7_412_4337_0&pdtk=&pduid=914915827&pdpin=&pin=null&pdbp=0&skuIds=J_4611415&ext=11000000&source=item-pc
+
+
+//*[@id="J_goodsList"]/ul/li[1]
