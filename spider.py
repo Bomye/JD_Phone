@@ -39,7 +39,7 @@ def get_data(product_url):
     seletor = etree.HTML(html.text)
     product_info = seletor.xpath('//*[@class="parameter2 p-parameter-list"]')
     for product in product_info:
-        #这里用正则匹配更好
+        #这里用正则匹配更好，xpath对于不标准格式使用提取不到准确信息
         product_number = product.xpath('li[2]/@title')[0]
         product_price = get_product_price(product_number)
         product_dict['商品名称'] = product.xpath('li[1]/@title')[0]
